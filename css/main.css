@@ -29,3 +29,8 @@ footer a:hover {
     color: blueviolet;
     text-decoration: none;
 }
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
