@@ -31,7 +31,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-.card:hover {
+.card2:hover {
     transform: scale(1.1);
     transition: .4s;
 }

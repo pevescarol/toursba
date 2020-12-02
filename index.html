@@ -35,31 +35,45 @@
                      <li class="breadcrumb-item active" aria-current="page">Home</li>
                  </ol>
             </nav>
-            <div class="d-flex">
+
+            <div class="row">
                 <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multiCollapse2">¿Cómo reservo?</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 collapse multi-collapse" id="funciona">
                     <p>
                         <h4>¿Cómo funciona?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 collapse multi-collapse" id="reserva">
                     <p>
                         <h4>¿Cómo reservo?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 collapse multi-collapse" id="pago">
                     <p>
                         <h4>¿Cómo pago?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </p>
                 </div>
             </div>
+
             <hr>
 
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card card2">
                         <div class="card-body">
                         <h5 class="card-title">Pinamar</h5>
                         <img src="./img/pinamar.jpg" class="card-img-top">
@@ -69,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card card2">
                         <div class="card-body">
                         <h5 class="card-title">Mar del Plata</h5>
                         <img src="./img/mdq.jpg" class="card-img-top">
@@ -79,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
+                    <div class="card card2">
                     <div class="card-body">
                         <h5 class="card-title">Santa Teresita</h5>
                         <img src="./img/santa teresita.jpg" class="card-img-top">
