@@ -75,31 +75,62 @@
                 <div class="col-sm-4">
                     <div class="card card2">
                         <div class="card-body">
-                        <h5 class="card-title">Pinamar</h5>
-                        <img src="./img/pinamar.jpg" class="card-img-top">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                            <h5 class="card-title">Pinamar</h5>
+                            <img src="./img/pinamar.jpg" class="card-img-top">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card card2">
                         <div class="card-body">
-                        <h5 class="card-title">Mar del Plata</h5>
-                        <img src="./img/mdq.jpg" class="card-img-top">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                            <h5 class="card-title">Mar del Plata</h5>
+                            <img src="./img/mdq.jpg" class="card-img-top">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card card2">
-                    <div class="card-body">
-                        <h5 class="card-title">Santa Teresita</h5>
-                        <img src="./img/santa teresita.jpg" class="card-img-top">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                        <div class="card-body">
+                            <h5 class="card-title">Santa Teresita</h5>
+                            <img src="./img/santa teresita.jpg" class="card-img-top">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
+                            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="contacto" tabindex="-1"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Tu email:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Mensaje:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>    
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success">Enviar</button>
+                        </div>
                     </div>
                 </div>
             </div>
