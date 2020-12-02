@@ -30,6 +30,9 @@ footer a:hover {
     color: rgb(157, 75, 233);
     text-decoration: none;
 }
+.card2{
+    cursor: pointer;
+}
 
 .card2:hover {
     transform: scale(1.1);
