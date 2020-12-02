@@ -1,2 +1,2 @@
 # toursba
-Ejemplo de bootstrap 
+Ejemplo básico del uso de algunos componentes de bootstrap 
