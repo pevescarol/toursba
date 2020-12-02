@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <title>ToursBA</title>
   </head>
   <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="#" class="navbar-brand">ToursBA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="./price.html" class="nav-link">Precios</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
         <div class="jumbotron">
             <h1 class="display-4">Tours BA</h1>
             <p class="lead">Reserva tu viaje soñado con nosotros.</p>
         </div>
 
         <div class="container">
+            <nav aria-label="breadcrumb">
+                 <ol class="breadcrumb">
+                     <li class="breadcrumb-item active" aria-current="page">Home</li>
+                 </ol>
+            </nav>
             <div class="d-flex">
                 <div class="col-sm-4">
                     <p>
@@ -40,27 +61,30 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Santorini</h5>
+                        <h5 class="card-title">Pinamar</h5>
+                        <img src="./img/pinamar.jpg" class="card-img-top">
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                        <h5 class="card-title">Mikonos</h5>
+                        <h5 class="card-title">Mar del Plata</h5>
+                        <img src="./img/mdq.jpg" class="card-img-top">
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Atenas</h5>
+                        <h5 class="card-title">Santa Teresita</h5>
+                        <img src="./img/santa teresita.jpg" class="card-img-top">
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <a href="#" class="btn btn-primary"><span class="oi oi-plus"></span> Reservar</a>
                     </div>
                     </div>
                 </div>
@@ -77,9 +101,9 @@
                 <div class="col-sm-6">
                     <address>
                         <h3>Oficina central</h3>
-                        <p>Siempre viva 234</p>
-                        <p>+549 111234567</p>
-                        <p>contacto@toursba.com</p>
+                        <p><span class="oi oi-home footer-address-icon"></span>  Siempre viva 234</p>
+                        <p><span class="oi oi-phone"></span>  +549 111234567</p>
+                        <p><span class="oi oi-inbox"></span>  contacto@toursba.com</p>
                     </address>
                 </div>
                 <div class="col-sm-3 d-flex flex-column">
